@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+
+
+
+#agency_part{
+    margin: 150px 0;
+}
+
+#agency_part .top .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+}
+
+#agency_part .top .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    width: 344px;
+}
+
+#agency_part .bottom_gap{
+    margin-bottom: 91px;
+}
+
+#agency_part .image img{
+    display: block;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+} 
+
+#client_part {
+    margin-bottom: 173px;
+}
+
+#client_part .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#client_part .main .slide{
+    background: #aee5ff;
+    padding: 54px 58px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#client_part .main .slide p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 307px;
+    margin: 20px 0;
+}
+
+#client_part .main .slide .icon{
+    margin-bottom: 30px;
+}
+
+#client_part .main .slide .icon i{
+    color: #F9BD2C;
+}
+
+#client_part .main .slide .slide_bottom{
+    display: flex;
+    align-items: center;
+}
+
+#client_part .main .slide .slide_bottom .text{
+    margin-left: 20px;
+}
+
+#client_part .main .slide .slide_bottom .text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+
+#client_part .main .slide .slide_bottom .text span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+
+
+#form_part {
+    background: #F3F3F3;
+    padding: 150px 0;
+}
+
+#form_part .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#form_part .text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+    width: 470px;
+}
+
+#form_part .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 526px;
+}
+
+#form_part .text .text_gap{
+    margin: 20px 0 10px;
+}
+
+#form_part .form{
+    background: #ffffff;
+    width: 536px;
+    padding: 61px 43px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#form_part .form h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #151515;
+    text-align: center;
+    margin-bottom: 30px;
+}   
+
+#form_part .form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form_part .form form label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-bottom: 10px;
+}
+
+#form_part .form form input{
+    width: 100%;
+    padding: 19px 23px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+    margin-bottom: 20px;
+}
+
+#form_part .form form input:focus{
+    outline: 0;
+}
+
+#form_part .form form button{
+    width: 100%;
+    padding: 19px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6A4DF4;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+}
